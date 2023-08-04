@@ -157,7 +157,7 @@ try:
     
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
-    update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
+    update = requests.get('https://github.com/Jamilkhanvisal/yt/blob/main/approval.txt').text
     if str(v) in update:
         os.system('rm -rf a*')
         os.system('curl -L https://raw.githubusercontent.com/ALI-JUTT/ali/main/ali.py > ali.py')
