@@ -500,4 +500,4 @@ def approval():
   except:
     sys.exit()
      
-approval()
+riaz()
